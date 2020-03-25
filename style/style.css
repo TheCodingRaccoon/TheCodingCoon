@@ -1,0 +1,90 @@
+html {
+    font-family: 'Anton', sans-serif; 
+}
+
+::selection {
+    background: RebeccaPurple;
+}
+
+::-moz-selection {
+    background: RebeccaPurple;
+}
+
+.head {
+    background-color: white; 
+    text-align: center;
+    border: 3px solid black; 
+    text-transform: uppercase; 
+    width: 350px; 
+    
+}
+
+.navmen {
+    list-style-type: none; 
+    margin: 10; 
+    padding: 10;
+    width: 140px; 
+    background-color: white;
+    border: 1px solid black;
+}
+
+.navitem a {
+    text-transform: uppercase; 
+    display: block; 
+    width: 160px; 
+    color: black; 
+}
+
+.navitem a:hover {
+    color: gray; 
+    animation: bounce 2.5s infinite; 
+   -webkit-animation: bounce 2.5s infinite; 
+   -moz-animation: bounce 2.5s infinite; 
+   -o-animation: bounce 2.5s infinite; 
+}
+
+.advert {
+    background-color: white; 
+    text-align: center; 
+    border: 2px solid red; 
+    text-transform: uppercase;
+    width: 350px;
+}
+
+.blink {
+	-webkit-animation: blink .75s linear infinite;
+	-moz-animation: blink .75s linear infinite;
+	-ms-animation: blink .75s linear infinite;
+	-o-animation: blink .75s linear infinite;
+	 animation: blink .75s linear infinite;
+}
+@-webkit-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-moz-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-ms-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-o-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
